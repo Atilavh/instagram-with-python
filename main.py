@@ -1,4 +1,5 @@
 import emoji
+from controllers.user_controller import create_account
 
 def main_menu():
     while True:
@@ -8,7 +9,7 @@ def main_menu():
         if choice == "1":
             pass
         elif choice == "2":
-            pass
+            create_account()
         elif choice == "3":
             pass
         elif choice == "4":
